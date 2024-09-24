@@ -1,0 +1,89 @@
+.inovacao{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.textoInova{
+    display: flex;
+}
+
+.textoInova p{
+    font-size: 26px;
+}
+
+.atributos{
+    margin-left: 7px;
+    color: #FFC107;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin: 60px auto;
+}
+.secondary{
+    width: 30rem;
+    background-color: #BCC7CF;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.secondary {
+    position: relative;
+    background: #BCC7CF;
+    height: 30rem;
+  }
+  
+  .secondary::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #BCC7CF transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+  }
+  .h2{
+    font-size: 2.7rem;
+    color: white;
+
+  }
+  .textmain{
+    padding: 0px 30px;
+    font-size: 1.1rem;
+    color: black;
+  }
+  .text{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+  }
+  .seta{
+    font-size: 2rem;
+    align-items: right;
+  }
+
+  .img{
+    width: 4.3rem;
+    height: 4.3rem;
+    margin: 0 auto;
+  }
+  .empresa{
+    color: #303FB0;
+    font-size: 3.5rem;
+    font-weight: bold;
+    
+  }
+  .textodiv{
+    display: flex;
+    flex-direction: column;
+
+  }

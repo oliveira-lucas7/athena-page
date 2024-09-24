@@ -1,0 +1,71 @@
+.bannerGeral {
+    background: linear-gradient(135deg, #1E9CFA 30%, #125C94 70%);
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.Imagem {
+    width: 81%;
+}
+
+.infosAthena{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.frase{
+    display: flex;
+    font-size: 25px;
+}
+
+.max{
+    margin-left: 5px;
+    color: #FFE470;
+    font-weight: 800;
+}
+
+/* From Uiverse.io by alexruix */ 
+.inputGroup {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 280px;
+    padding: 0 1rem;
+    color: #161616;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: "white";
+  }
+  
+  .buttonSubmit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #334F66;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .buttonSubmit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  
+  
