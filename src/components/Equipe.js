@@ -20,8 +20,12 @@ function Equipe() {
           <h4>Lucas Oliveira</h4>
           <p>Desenvolvedor FullStack</p>
           <div className={Style.icones}>
-            <LinkedInIcon/>
-            <GitHubIcon/>
+          <a target='_blank' href='https://www.linkedin.com/in/lucas-oliveira-715767291/'>
+              <LinkedInIcon/>
+            </a>
+            <a target='_blank' href='https://github.com/oliveira-lucas7'>
+              <GitHubIcon/>
+            </a>
           </div>
         </div>
         <div className={Style.membroPar}>
@@ -29,8 +33,12 @@ function Equipe() {
           <h4>Valmir Borges</h4>
           <p>Desenvolvedor FullStack</p>
           <div className={Style.icones}>
-            <LinkedInIcon/>
-            <GitHubIcon/>
+          <a target='_blank' href='https://www.linkedin.com/in/valmir-borges-5966b9291/'>
+              <LinkedInIcon/>
+            </a>
+            <a target='_blank' href='https://github.com/valmir-borges/valmir-borges'>
+              <GitHubIcon/>
+            </a>
           </div>
         </div>
         <div className={Style.membroImpar}>
@@ -38,8 +46,12 @@ function Equipe() {
           <h4>Tomás Nogueira</h4>
           <p>Desenvolvedor FullStack</p>
           <div className={Style.icones}>
-            <LinkedInIcon/>
-            <GitHubIcon/>
+            <a target='_blank' href='https://www.linkedin.com/in/tomas-nogueira-824295291/'>
+              <LinkedInIcon/>
+            </a>
+            <a target='_blank' href='https://github.com/tomas-nogueira'>
+              <GitHubIcon/>
+            </a>
           </div>
         </div>
         <div className={Style.membroPar}>
@@ -47,8 +59,12 @@ function Equipe() {
           <h4>Rodrigo</h4>
           <p>Desenvolvedor FullStack</p>
           <div className={Style.icones}>
-            <LinkedInIcon/>
-            <GitHubIcon/>
+          <a target='_blank' href='https://www.linkedin.com/in/dev-rodrigo-seabra/'>
+              <LinkedInIcon/>
+            </a>
+            <a target='_blank' href='https://github.com/rodrigo-seabra'>
+              <GitHubIcon/>
+            </a>
           </div>
         </div>
       </divn>

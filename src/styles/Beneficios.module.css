@@ -21,3 +21,13 @@
 .slideContainer img{
     height: 38rem;
 }
+
+.slideContainer h3{
+    color: #334F66;
+    font-size: 36px;
+}
+
+.slideContainer p{
+    font-size: 32px;
+    color: white;
+}
