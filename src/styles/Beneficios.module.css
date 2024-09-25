@@ -1,0 +1,23 @@
+.container{
+    /* background-color: #BCC7CF; */
+    margin-top: 130px;
+    color: black;
+    width: 100%;
+    height: 38rem;
+}
+
+.slideContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #BCC7CF;
+    position: relative;
+}
+
+
+.slideContainer img{
+    height: 38rem;
+}

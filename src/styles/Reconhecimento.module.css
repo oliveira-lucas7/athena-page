@@ -1,0 +1,55 @@
+.Reconhecimento{
+    background: linear-gradient(135deg, #1E9CFA 30%, #125C94 70%);
+    height: 510px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 130px;
+    align-items: center;
+}
+
+.Avatar{
+    width: 98.65%;
+}
+
+.Sistema{
+    display: flex;
+    align-items: center;
+}
+
+.Sistema p{
+    font-size: 25px;
+}
+
+.Reconhecimento button{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    background-color: #6D96B8;
+    color: white;
+    font-size: 18px;
+}
+
+.Reconhecimento button:hover{
+    background-color: #FFC107;
+    color: black;
+    padding-left: 55px;
+    padding-right: 55px;
+    transition: 1s;
+    cursor: pointer;
+    border: white;
+}
+
+.textEffect{
+    margin-left: 10px;
+    background-color: #FFC107;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    border-radius: 40px;
+}
